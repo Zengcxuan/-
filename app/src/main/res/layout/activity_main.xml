@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/notify_currently"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="即时提醒" />
+
+    <Button
+        android:id="@+id/notify_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="通知设置" />
+
+    <Button
+        android:id="@+id/channel_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="渠道设置" />
+
+    <Button
+        android:id="@+id/alarm_notify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="定时提醒" />
+
+</LinearLayout>
